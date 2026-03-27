@@ -1,0 +1,19 @@
+body { font-family: 'Pirata One', Tahoma, Geneva, Verdana, sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #2b1d0e; margin: 0; }
+        .widget-card { background: rgb(156, 95, 64); background-attachment: fixed; padding: 2rem; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 350px; text-align: center; }
+        
+
+        h1 {
+        color: #63cd88; /* Rojo oscuro pirata */
+        text-shadow: 2px 2px 1cap #00000091;
+    }
+        p {
+                color: #63cd88; /* Rojo oscuro pirata */
+                text-shadow: 2px 2px 1cap #00000091;
+            }
+        .btn-group { display: flex; flex-direction: column; gap: 10px; }
+        button { padding: 12px; border: none; border-radius: 6px; cursor: pointer; transition: 0.3s; font-weight: bold; }
+        .btn-pdf { background: #4840be; color: white; }
+        .btn-excel { background: #34a853; color: white; }
+        .console { margin-top: 20px; background: #202124; color: #00ff00; padding: 15px; border-radius: 6px; font-family: 'Courier New', Courier, monospace; font-size: 0.85rem; min-height: 120px; text-align: left; overflow-y: auto;
+    }
+   

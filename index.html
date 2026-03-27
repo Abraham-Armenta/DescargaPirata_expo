@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Widget: Template Method Pattern</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Pirata One' rel='stylesheet'>
+</head>
+<body>
+
+<div class="widget-card">
+    <h1>PIRATE BAY CIMARRON</h1>
+    <p>Selecciona el formato de descarga:</p>
+    <div class="btn-group">
+        <button class="btn-pdf" onclick="exportar('ISO')">Descargar ISO</button>
+        <button class="btn-excel" onclick="exportar('PSN')">Descargar PSN</button>
+    </div>
+    <div class="console" id="log">Esperando acción...</div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
