@@ -1,6 +1,6 @@
-// CLASE BASE: El "Template"
+
 class GeneradorReporte {
-    // Este es el MÉTODO PLANTILLA
+    //metodo plantilla
     ejecutarProceso() {
         this.limpiarConsola();
         this.extraerDatos();     // Paso común
@@ -16,7 +16,7 @@ class GeneradorReporte {
         this.log("Step 3: Archivo descargado exitosamente.");
     }
 
-    // Método que las "subclases" deben implementar
+   
     aplicarFormato() {
         throw new Error("El método aplicarFormato() debe ser implementado");
     }
